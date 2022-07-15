@@ -13,7 +13,7 @@ public class Main {
         System.out.println(calc(userInput));
     }
 
-    // Конвертирует романские числа в нормальные блять
+    // Конвертирует романские числа в нормальные
     public static int romanToInteger(String roman)
     {
         Map<Character,Integer> numbersMap = new HashMap<>();
